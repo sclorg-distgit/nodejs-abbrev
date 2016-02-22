@@ -5,7 +5,7 @@
 
 Name:       %{?scl_prefix}nodejs-abbrev
 Version:    1.0.5
-Release:    2%{?dist}
+Release:    1%{?dist}
 Group:      Development/Libraries
 Summary:    Abbreviation calculator for Node.js
 License:    MIT
@@ -48,9 +48,6 @@ node abbrev.js
 %doc README.md LICENSE
 
 %changelog
-* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.5-2
-- rebuilt
-
 * Wed Jan 07 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.5-1
 - New upstream release 1.0.5
 
